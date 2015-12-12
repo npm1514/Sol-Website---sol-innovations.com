@@ -1,0 +1,158 @@
+body {
+	font-family: "Montserrat";
+	width: 100%;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: rgb(115, 161, 33);
+	padding: 15px 0px 10px 0px;
+}
+
+header h1 {
+	margin:0;
+}
+
+.headtitle {
+	width: 970px;
+	margin: auto;
+	font-family: "Oswald";
+}
+
+.logodiv {
+	height:72px;
+	width:70px;
+	float: left;
+
+}
+.logoimage {
+	height: 95%;
+	margin: auto;
+}
+
+.sol {
+	color: #a0ce4e;
+	font-size: 24px;
+	line-height: 1.5;
+}
+
+.sol-style {
+	color: #5C5C5C;
+}
+
+.nav {
+	width: 940px;
+	height: 40px;
+	margin:0 auto;
+	margin-top: 25px;
+}
+
+.navwrap {
+	width:860px;
+	margin:0 auto;
+	height:45px;
+}
+
+.navwrap a {
+	text-decoration: none;
+	color: #2e2e2e;
+}
+
+.navlink {
+	width: 160px;
+	height: 40px;
+	margin:0px 5px 6px 5px;
+	float: left;
+
+}
+
+.navlink:hover {
+	color: #a0ce4e;
+}
+
+.nav2:hover ~ hr {
+	margin-left:20%;
+}
+
+.nav3:hover ~ hr {
+	margin-left:40%;
+}
+
+.nav4:hover ~ hr {
+	margin-left:60%;
+}
+
+.nav5:hover ~ hr {
+	margin-left:80%;
+}
+
+hr {
+  height: .4rem;
+  width: 160px;
+  margin: 5px;
+  background: #a0ce4e;
+  border: none;
+  transition: .5s ease-in-out;
+  position: relative;
+  top:-10px;
+
+}
+
+.navlink p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 100%;
+}
+
+.spacer {
+	background-color: #fff;
+	height:1px;
+	width: 100%;
+	clear: both;
+}
+
+.banner {
+	background-image: url("images/IMG_0551.JPG");
+	background-size: cover;
+	height:550px;
+	margin-top: 15px;
+
+}
+
+.bannerwrap {
+	width:1000px;
+	height:316px;
+	margin: auto;
+	padding-top: 100px;
+}
+
+.bannerblock {
+	background-color: rgba(230,230,230,0.74);
+	width: 300px;
+	height:315px;
+	float: left;
+	margin: 10px;
+}
+
+.roundwrap {
+	height: 100px;
+	width:300px;
+}
+
+.round {
+	width:75px;
+	height:75px;
+	border-radius: 50%;
+	background-color: #2e2e2e;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.round:hover {
+	width:80px;
+	height:80px;
+}
+
+.
