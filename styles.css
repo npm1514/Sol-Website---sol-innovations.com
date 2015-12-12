@@ -137,7 +137,7 @@ hr {
 }
 
 .roundwrap {
-	height: 100px;
+	height: 80px;
 	width:300px;
 }
 
@@ -151,8 +151,28 @@ hr {
 }
 
 .round:hover {
-	width:80px;
-	height:80px;
+	background-color:#a0ce4e;
 }
 
-.
+.symbol {
+	height:75px;
+	width: 75px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.bannertext {
+	text-align: center;
+	margin: 0;
+}
+
+.bannertext h1{
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.bannertext p{
+	font-size: 14px;
+	padding: 15px 20px 15px 20px;
+	color: #5c5c5c;
+}
