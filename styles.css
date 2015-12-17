@@ -155,10 +155,15 @@ hr {
 }
 
 .symbol {
-	height:75px;
-	width: 75px;
-	text-align: center;
-	padding-top: 15px;
+	height:50px;
+	width: 50px;
+	padding-top: 12px;
+	padding-left: 2px;
+	margin:auto;
+}
+
+.symbol svg {
+	fill: #fff;
 }
 
 .bannertext {
@@ -175,4 +180,43 @@ hr {
 	font-size: 14px;
 	padding: 15px 20px 15px 20px;
 	color: #5c5c5c;
+}
+
+.midline {
+	background-color: #a0ce4e;
+}
+
+.midwrap {
+	
+	margin-top: 10px;
+	width: 1000px;
+	height: 300px;
+	margin: auto;
+}
+
+.lefttext {
+	width: 49%;
+	float: left;
+}
+
+.lefttext h1 {
+	font-weight: normal;
+	font-size: 20px;
+	color: ;
+}
+
+.lefttext p {
+	font-size: 15px;
+	color: #fff;
+}
+
+.righttext {
+	width: 49%;
+	float: left;
+	text-align: right;
+}
+
+.righttext p {
+	font-size: 10px;
+	color: #fff;
 }
