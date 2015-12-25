@@ -1,0 +1,23 @@
+.nav1:hover ~ hr {
+	margin-left:-60%;
+}
+
+.nav2:hover ~ hr {
+	margin-left:-40%;
+}
+
+.nav3:hover ~ hr {
+	margin-left:-20%;
+}
+
+.nav5:hover ~ hr {
+	margin-left:20%;
+}
+
+hr {
+  left: 510px;
+}
+
+.leftpic1 {
+	background-image: url("../images/DSCF1025.JPG")
+}
