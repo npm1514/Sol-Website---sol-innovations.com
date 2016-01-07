@@ -271,13 +271,13 @@ hr {
 	font-family: "Montserrat";
 }
 
-.input-message {
-	height: 100px;
-}
-
-#input-message {
+.quote textarea {
 	overflow: auto;
-	height: 130px
+	height: 130px;
+	width: 576px;
+	border-radius: 5px;
+	font-family: "Montserrat";
+	border: 2px inset #eeeeee;
 }
 
 .quote {
@@ -308,4 +308,10 @@ footer {
 	padding-left: 10px;
 	width:960px;
 	margin: auto;
+}
+
+.support-troops {
+	width: 250px;
+	margin: auto;
+	text-align: center;
 }

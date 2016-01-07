@@ -74,11 +74,12 @@
 			<div class="quote-form" controller="mainCtrl">
 				<form class="quote" action="mailto:npmarucci@sol-innovations.com" method="post" enctype="text/plain">
 					<p>Name</p>
-					<input>
+					<input type="text" ng-model="user.name" name="name" placeholder="First and Last Name - Company" ng-required="true" required>
 					<p>E-mail</p>
-					<input ng-model="email">
+					<input type="email" ng-model="user.email" name="email" placeholder="Email Address" ng-required="true" required>
+					<p ng-show="myform.email.$invalid && myform.email.$touched">Please enter a valid email</p>
 					<p>Message</p>
-					<input id="input-message" >
+					<textarea type="text" name="name" rows="8" cols="40" required ng-required="true" placeholder="Quotation Inquiry..."></textarea>
 					<br>
 					<button type="button" name="button">Submit</button>
 				</form>
